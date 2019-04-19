@@ -1,0 +1,5 @@
+FROM python:3
+ ADD Random_Forest.py/
+RUN pip install numpy
+CMD [ "python", "./Random_Forest.py" ]
+
